@@ -7,6 +7,7 @@ from dash.dependencies import Input, Output
 
 # Creazione di una app Dash
 app = dash.Dash(__name__)
+server = app.server
 
 # Funzione che genera dati randomizzati all'apertura della pagina
 def generate_data():
