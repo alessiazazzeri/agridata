@@ -8,6 +8,7 @@ from dash.dependencies import Input, Output
 
 # Creazione di una app Dash
 app = dash.Dash(__name__)
+server = app.server
 
 # Funzione per ottenere dati meteo da Open-Meteo
 def ottieni_dati_meteo(citta):
