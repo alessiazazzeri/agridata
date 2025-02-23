@@ -112,6 +112,8 @@ def genera_dati(temperatura, precipitazioni, umidita):
         'Temperatura': temperatura,
         'Umidita': umidita,
         'Precipitazioni': precipitazioni,
+        'Irrigazione' : irrigazione,
+        'Fertilizzante' : fertilizzante,
         'Efficienza Raccolto': efficienza_raccolto,
         'Efficienza Acqua': efficienza_acqua,
         'Efficienza Fertilizzante': efficienza_fertilizzante,
